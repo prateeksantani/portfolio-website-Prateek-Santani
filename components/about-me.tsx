@@ -5,16 +5,24 @@ export function AboutMe() {
 
       {/* Photo - shown on mobile after heading, hidden on desktop */}
       <div className="flex justify-start mb-6 md:hidden">
-        <div className="w-32 h-32 bg-gray-200 dark:bg-slate-700 rounded-lg flex items-center justify-center hover-card">
-          <span className="text-gray-400 dark:text-gray-500">Photo</span>
+        <div className="w-32 h-32 bg-gray-200 dark:bg-slate-700 rounded-lg flex items-center justify-center hover-card overflow-hidden">
+          <img
+            src="/me.jpg"
+            alt="Prateek Santani"
+            className="object-cover w-full h-full"
+          />
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
         {/* Photo - shown on desktop only */}
         <div className="flex-shrink-0 hidden md:block">
-          <div className="w-48 h-48 bg-gray-200 dark:bg-slate-700 rounded-lg flex items-center justify-center hover-card">
-            <span className="text-gray-400 dark:text-gray-500">Photo</span>
+          <div className="w-48 h-48 bg-gray-200 dark:bg-slate-700 rounded-lg flex items-center justify-center hover-card overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt="Prateek Santani"
+              className="object-cover w-full h-full"
+            />
           </div>
         </div>
 
