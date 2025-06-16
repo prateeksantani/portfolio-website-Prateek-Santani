@@ -43,7 +43,7 @@ export function Projects() {
     "Built an AI-powered emoji/avatar generator that converts user input into high-quality emojis using the SDXL model from Replicate. Features include authentication via Clerk, a sleek Aceternity UI design, and real-time generation with secure API integration.",
   github: "https://github.com/prateeksantani/Emoji-Genrator.git",
   live: "https://emoji-gen-six.vercel.app/"
-},
+}
 // {
 //   id: "3",
 //   title: "VectorFlow: Hierarchical Vector Database (from Scratch)",
