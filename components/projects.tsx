@@ -44,14 +44,14 @@ export function Projects() {
   github: "https://github.com/prateeksantani/Emoji-Genrator.git",
   live: "https://emoji-gen-six.vercel.app/"
 },
-{
-  id: "3",
-  title: "VectorFlow: Hierarchical Vector Database (from Scratch)",
-  category: "Backend",
-  techStack: ["Python", "FastAPI", "Pydantic", "Cohere", "AsyncIO", "Docker", "Kubernetes", "Helm", "Minikube"],
-  description:
-    "Developed a high-performance vector database from scratch that uses hierarchical clustering for efficient similarity search. Achieved 3x faster query times compared to existing solutions while maintaining high recall rates.",
-}
+// {
+//   id: "3",
+//   title: "VectorFlow: Hierarchical Vector Database (from Scratch)",
+//   category: "Backend",
+//   techStack: ["Python", "FastAPI", "Pydantic", "Cohere", "AsyncIO", "Docker", "Kubernetes", "Helm", "Minikube"],
+//   description:
+//     "Developed a high-performance vector database from scratch that uses hierarchical clustering for efficient similarity search. Achieved 3x faster query times compared to existing solutions while maintaining high recall rates.",
+// }
   ]
 
   return (
