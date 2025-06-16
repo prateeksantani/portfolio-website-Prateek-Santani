@@ -16,7 +16,7 @@ const projects: Project[] = [
   {
     id: "1",
     title: "Built an Assignment for hiring round at Ringover.",
-    date: "24 July 2025",
+    date: "16 July 2025",
     description: "• Developed a modern SaaS dashboard (DashDark X) with clean layouts and excellent data visualization\n• Implemented intuitive user interfaces for better user experience\n• Created responsive designs that work seamlessly across different devices",
     link: "https://frontend-task-two-omega.vercel.app/"
   },
@@ -25,22 +25,22 @@ const projects: Project[] = [
     title: "Build an Assignment for hiring round at ProMarketer",
     date: "06 July 2025",
     description: "• Received an invitation to visit the Madison Square Garden offices\n• Discussed potential AI integration opportunities for event management\n• Explored crowd analytics solutions for venue optimization",
-    link: "https://frontend-task-two-omega.vercel.app/"
+    link: "https://glow-genix-landing.vercel.app/"
   },
+  // {
+  //   id: "3",
+  //   title: "Optimizing AI Agents",
+  //   date: "22 Mar 2025",
+  //   description: "• Published a comprehensive guide on optimizing AI agent performance in distributed systems\n• Featured on the front page of Hacker News\n• Generated significant discussion in the AI community",
+  // },
+  // {
+  //   id: "4",
+  //   title: "Advanced Agent / RAG exploration",
+  //   date: "24 Jan 2025",
+  //   description: "• Conducted in-depth research on combining Retrieval-Augmented Generation with autonomous agents\n• Improved context handling and decision making capabilities\n• Implemented a proof-of-concept that reduced hallucinations by 47%",
+  // },
   {
     id: "3",
-    title: "Optimizing AI Agents",
-    date: "22 Mar 2025",
-    description: "• Published a comprehensive guide on optimizing AI agent performance in distributed systems\n• Featured on the front page of Hacker News\n• Generated significant discussion in the AI community",
-  },
-  {
-    id: "4",
-    title: "Advanced Agent / RAG exploration",
-    date: "24 Jan 2025",
-    description: "• Conducted in-depth research on combining Retrieval-Augmented Generation with autonomous agents\n• Improved context handling and decision making capabilities\n• Implemented a proof-of-concept that reduced hallucinations by 47%",
-  },
-  {
-    id: "5",
     title: "Built this Website",
     date: "14 Dec 2024",
     description: "• Created a personal portfolio website using modern web technologies\n• Implemented responsive design and smooth animations\n• Showcased projects and professional experience",
