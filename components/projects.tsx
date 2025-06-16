@@ -22,39 +22,36 @@ export function Projects() {
   const filters = ["Frontend", "Backend", "AI", "Core/Systems", "Cloud", "DevOps/Infra", "Web3"]
 
   const projects = [
-    {
-      id: "1",
-      title: "DocFlow: GraphRAG - LLM Document Compliance",
-      category: "AI",
-      techStack: ["Next.js", "FastAPI", "GraphRAG", "PostgreSQL", "Anthropic API", "FAISS", "Neo4J"],
-      featured: true,
-      description:
-        "Built a document compliance system that uses graph-based RAG to analyze legal documents and ensure compliance with regulations. The system reduced manual review time by 78% and improved accuracy by 34% compared to traditional methods.",
-    },
-    {
-      id: "2",
-      title: "VectorFlow: Hierarchical Vector Database (from Scratch)",
-      category: "Backend",
-      techStack: ["Python", "FastAPI", "Pydantic", "Cohere", "AsyncIO", "Docker", "Kubernetes", "Helm", "Minikube"],
-      description:
-        "Developed a high-performance vector database from scratch that uses hierarchical clustering for efficient similarity search. Achieved 3x faster query times compared to existing solutions while maintaining high recall rates.",
-    },
-    {
-      id: "3",
-      title: "KubeControl: Cloud-Native Monitoring and Alerting Solution",
-      category: "DevOps/Infra",
-      techStack: [
-        "Flask",
-        "MongoDB",
-        "Docker",
-        "Kubernetes (Minikube, AWS EKS)",
-        "Prometheus",
-        "Slack API",
-        "AWS (EKS, S3, CloudWatch)",
-      ],
-      description:
-        "Created a comprehensive monitoring and alerting solution for Kubernetes clusters that provides real-time insights and automated incident response. Implemented custom metrics collection and intelligent alert grouping to reduce alert fatigue.",
-    },
+   {
+  id: "1",
+  title: "GlowGenix - Skincare Landing Page",
+  category: "Frontend",
+  techStack: ["React", "TypeScript", "Tailwind CSS"],
+  featured: true,
+  description:
+    "Developed a responsive landing page for Promarketer's client GlowGenix using React and Tailwind CSS. The design was tested across Chrome, Firefox, and Safari, and verified for mobile, tablet, and desktop responsiveness. All components passed functionality checks. Planned to integrate a Sora AI explainer video, but was limited by subscription access.",
+  github: "https://github.com/prateeksantani/GlowGenix-landing.git",
+  live: "https://glow-genix-landing.vercel.app/"
+},
+{
+  id: "2",
+  title: "Emoji Generator - AI Avatar from Text",
+  category: "AI",
+  techStack: ["Next.js", "Tailwind CSS", "Clerk Auth", "Replicate SDXL API", "Aceternity UI"],
+  featured: true,
+  description:
+    "Built an AI-powered emoji/avatar generator that converts user input into high-quality emojis using the SDXL model from Replicate. Features include authentication via Clerk, a sleek Aceternity UI design, and real-time generation with secure API integration.",
+  github: "https://github.com/prateeksantani/Emoji-Genrator.git",
+  live: "https://emoji-gen-six.vercel.app/"
+},
+{
+  id: "3",
+  title: "VectorFlow: Hierarchical Vector Database (from Scratch)",
+  category: "Backend",
+  techStack: ["Python", "FastAPI", "Pydantic", "Cohere", "AsyncIO", "Docker", "Kubernetes", "Helm", "Minikube"],
+  description:
+    "Developed a high-performance vector database from scratch that uses hierarchical clustering for efficient similarity search. Achieved 3x faster query times compared to existing solutions while maintaining high recall rates.",
+}
   ]
 
   return (

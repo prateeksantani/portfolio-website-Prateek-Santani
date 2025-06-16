@@ -60,7 +60,7 @@ export function AboutMe() {
                   B.Tech in Computer and Communication Engineering, Manipal University Jaipur
                 </span>
                 <br />
-                <span className="text-gray-600 dark:text-gray-300">(Completed August 2024)</span>
+                <span className="text-gray-600 dark:text-gray-300">(Completed August 2023)</span>
               </li>
             </ul>
 
