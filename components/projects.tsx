@@ -93,13 +93,38 @@ export function Projects() {
                 {project.title}
               </h3>
 
-              <Button
-                variant="outline"
-                size="sm"
-                className="hover-card bg-white dark:bg-slate-600 border-gray-200 dark:border-slate-500 text-gray-800 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-500 mb-3 md:mb-4 text-xs md:text-sm"
-              >
-                View on GitHub
-              </Button>
+              <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="hover-card bg-white dark:bg-slate-600 border-gray-200 dark:border-slate-500 text-gray-800 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-500 text-xs md:text-sm"
+                    >
+                      View on GitHub
+                    </Button>
+                  </a>
+                )}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="hover-card bg-white dark:bg-slate-600 border-gray-200 dark:border-slate-500 text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-slate-500 text-xs md:text-sm"
+                    >
+                      View Live Project
+                    </Button>
+                  </a>
+                )}
+              </div>
 
               <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
                 {project.techStack.map((tech) => (
